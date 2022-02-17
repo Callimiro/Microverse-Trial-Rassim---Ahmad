@@ -1,0 +1,27 @@
+p{
+    color:green;
+}
+
+#welcome-section{
+    display:flex;
+    height:100vh;
+    overflow:auto;
+    color:red;
+}
+
+#navbar {
+    position:fixed;
+    top:0;
+}
+
+@media (max-width: 800px) {
+    p{
+        color:red;
+    }
+}
+
+@media (max-width: 500px) {
+    p{
+        color:blue;
+    }
+}
